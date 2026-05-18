@@ -1,0 +1,21 @@
+{
+  "name": "takealot-api-v2",
+  "version": "2.1.0",
+  "description": "Takealot Marketplace API V2.1 Integration - Returns, Credit Notes, Health Monitoring",
+  "main": "takealot-connector.js",
+  "scripts": {
+    "poll-orders": "node takealot-order-poll.js",
+    "sync-stock": "node takealot-sync-cron.js",
+    "sync-prices": "node takealot-sync-cron.js --sync-prices",
+    "check-returns": "node takealot-returns-check.js --dry-run",
+    "preview-credits": "node takealot-credit-preview.js --days 30",
+    "health-check": "node takealot-health-check.js"
+  },
+  "dependencies": {
+    "axios": "^1.6.0",
+    "dotenv": "^16.3.0"
+  },
+  "author": "Stan2891",
+  "license": "UNLICENSED",
+  "private": true
+}

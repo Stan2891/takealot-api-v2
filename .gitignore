@@ -1,0 +1,25 @@
+# Dependencies
+node_modules/
+
+# Environment
+.env
+.env.*
+
+# State files (runtime data)
+.takealot-order-state.json
+.takealot-credit-approval-queue.json
+.takealot-credit-note-state.json
+.takealot-health.json
+.takealot-health-alert-state.json
+.takealot-returns-state.json
+
+# Logs
+*.log
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
