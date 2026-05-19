@@ -260,12 +260,15 @@ async function main() {
         req.end();
       });
 
+      // V2.1 recovery: only mark processed on success (invoiced), allow retry on error
+      let orderInvoiced = false;
       if (createResp.success) {
         const results = createResp.results || [];
         for (const r of results) {
           if (r.status === 'invoiced') {
             log(`  ✅ Order ${orderId} → Invoice ${r.invoice_number} (R${r.total})`);
             created++;
+            orderInvoiced = true;
             saveHealth({ last_takealot_order_id: orderId, last_zoho_invoice_number: r.invoice_number || '', last_zoho_invoice_id: r.invoice_id || '' });
             logTakealotEvent({ source: 'takealot-order-poll', event_type: 'order_invoice_created', level: 'info', message: `Invoice created for order ${orderId}`, context: { order_id: orderId, invoice_number: r.invoice_number, total: r.total, item_count: order.items.length } });
           } else {
@@ -277,9 +280,13 @@ async function main() {
         errors++;
       }
 
-      // Mark all items in this order as processed
-      for (const item of order.items) {
-        state.processed_order_ids.push(String(item.order_id || item.order_item_id));
+      // Only mark as processed if at least one invoice was created
+      if (orderInvoiced) {
+        for (const item of order.items) {
+          state.processed_order_ids.push(String(item.order_id || item.order_item_id));
+        }
+      } else {
+        log(`  ⏳ Order ${orderId}: not marked as processed — will retry next poll`);
       }
 
       // Rate limit between orders

@@ -1,0 +1,717 @@
+{
+  "date_range": {
+    "from": "2026-04-20",
+    "to": "2026-05-18"
+  },
+  "generated_at": "2026-05-19T12:15:49.396Z",
+  "takealot_rows_seen": 45,
+  "unique_orders_seen": 41,
+  "already_invoiced": 5,
+  "missing_invoice_safe_candidates": 31,
+  "manual_review": 5,
+  "in_processed_state_but_missing_invoice": 36,
+  "total_missing_value": 29684,
+  "orders": [
+    {
+      "order_id": "209958945",
+      "order_date": "20 Apr 2026 09:28:02",
+      "status": "Shipped to Customer",
+      "line_count": 1,
+      "skus": [
+        "37126790078"
+      ],
+      "total_amount": 1089,
+      "zoho_reference": "TK-209958945",
+      "invoice_found": true,
+      "invoice_number": "INV-005738",
+      "invoice_status": "overdue",
+      "in_processed_state": true,
+      "classification": "already_invoiced",
+      "review_reason": null
+    },
+    {
+      "order_id": "210222809",
+      "order_date": "23 Apr 2026 06:27:41",
+      "status": "Shipped to Customer",
+      "line_count": 1,
+      "skus": [
+        "63177248911"
+      ],
+      "total_amount": 645,
+      "zoho_reference": "TK-210222809",
+      "invoice_found": false,
+      "invoice_number": null,
+      "invoice_status": null,
+      "in_processed_state": true,
+      "classification": "missing_invoice_safe_candidate",
+      "review_reason": null
+    },
+    {
+      "order_id": "210291249",
+      "order_date": "23 Apr 2026 20:09:02",
+      "status": "Shipped to Customer",
+      "line_count": 1,
+      "skus": [
+        "37126790078"
+      ],
+      "total_amount": 1089,
+      "zoho_reference": "TK-210291249",
+      "invoice_found": false,
+      "invoice_number": null,
+      "invoice_status": null,
+      "in_processed_state": true,
+      "classification": "missing_invoice_safe_candidate",
+      "review_reason": null
+    },
+    {
+      "order_id": "210292588",
+      "order_date": "23 Apr 2026 20:24:31",
+      "status": "Shipped to Customer",
+      "line_count": 1,
+      "skus": [
+        "17137642160"
+      ],
+      "total_amount": 1240,
+      "zoho_reference": "TK-210292588",
+      "invoice_found": false,
+      "invoice_number": null,
+      "invoice_status": null,
+      "in_processed_state": true,
+      "classification": "missing_invoice_safe_candidate",
+      "review_reason": null
+    },
+    {
+      "order_id": "210360258",
+      "order_date": "24 Apr 2026 13:30:18",
+      "status": "Shipped to Customer",
+      "line_count": 1,
+      "skus": [
+        "51717260397"
+      ],
+      "total_amount": 171,
+      "zoho_reference": "TK-210360258",
+      "invoice_found": false,
+      "invoice_number": null,
+      "invoice_status": null,
+      "in_processed_state": true,
+      "classification": "missing_invoice_safe_candidate",
+      "review_reason": null
+    },
+    {
+      "order_id": "210375917",
+      "order_date": "24 Apr 2026 16:17:08",
+      "status": "Shipped to Customer",
+      "line_count": 1,
+      "skus": [
+        "51247211289"
+      ],
+      "total_amount": 276,
+      "zoho_reference": "TK-210375917",
+      "invoice_found": false,
+      "invoice_number": null,
+      "invoice_status": null,
+      "in_processed_state": true,
+      "classification": "missing_invoice_safe_candidate",
+      "review_reason": null
+    },
+    {
+      "order_id": "210468099",
+      "order_date": "25 Apr 2026 14:09:38",
+      "status": "Shipped to Customer",
+      "line_count": 1,
+      "skus": [
+        "13717597586"
+      ],
+      "total_amount": 556,
+      "zoho_reference": "TK-210468099",
+      "invoice_found": false,
+      "invoice_number": null,
+      "invoice_status": null,
+      "in_processed_state": true,
+      "classification": "missing_invoice_safe_candidate",
+      "review_reason": null
+    },
+    {
+      "order_id": "210488793",
+      "order_date": "25 Apr 2026 18:36:32",
+      "status": "Shipped to Customer",
+      "line_count": 2,
+      "skus": [
+        "63177248912",
+        "63177248911"
+      ],
+      "total_amount": 1290,
+      "zoho_reference": "TK-210488793",
+      "invoice_found": false,
+      "invoice_number": null,
+      "invoice_status": null,
+      "in_processed_state": true,
+      "classification": "missing_invoice_safe_candidate",
+      "review_reason": null
+    },
+    {
+      "order_id": "210488808",
+      "order_date": "25 Apr 2026 18:33:40",
+      "status": "Shipped to Customer",
+      "line_count": 1,
+      "skus": [
+        "51247250308"
+      ],
+      "total_amount": 828,
+      "zoho_reference": "TK-210488808",
+      "invoice_found": false,
+      "invoice_number": null,
+      "invoice_status": null,
+      "in_processed_state": true,
+      "classification": "missing_invoice_safe_candidate",
+      "review_reason": null
+    },
+    {
+      "order_id": "210558941",
+      "order_date": "26 Apr 2026 17:51:00",
+      "status": "Shipped to Customer",
+      "line_count": 1,
+      "skus": [
+        "51718055020"
+      ],
+      "total_amount": 298,
+      "zoho_reference": "TK-210558941",
+      "invoice_found": false,
+      "invoice_number": null,
+      "invoice_status": null,
+      "in_processed_state": true,
+      "classification": "missing_invoice_safe_candidate",
+      "review_reason": null
+    },
+    {
+      "order_id": "210565343",
+      "order_date": "26 Apr 2026 19:16:33",
+      "status": "Shipped to Customer",
+      "line_count": 1,
+      "skus": [
+        "51718055020"
+      ],
+      "total_amount": 298,
+      "zoho_reference": "TK-210565343",
+      "invoice_found": false,
+      "invoice_number": null,
+      "invoice_status": null,
+      "in_processed_state": true,
+      "classification": "missing_invoice_safe_candidate",
+      "review_reason": null
+    },
+    {
+      "order_id": "210618419",
+      "order_date": "27 Apr 2026 13:11:54",
+      "status": "Shipped to Customer",
+      "line_count": 1,
+      "skus": [
+        "63177248911"
+      ],
+      "total_amount": 645,
+      "zoho_reference": "TK-210618419",
+      "invoice_found": false,
+      "invoice_number": null,
+      "invoice_status": null,
+      "in_processed_state": true,
+      "classification": "missing_invoice_safe_candidate",
+      "review_reason": null
+    },
+    {
+      "order_id": "210715173",
+      "order_date": "28 Apr 2026 12:13:47",
+      "status": "Shipped to Customer",
+      "line_count": 2,
+      "skus": [
+        "63176910792",
+        "51247250308"
+      ],
+      "total_amount": 3076,
+      "zoho_reference": "TK-210715173",
+      "invoice_found": false,
+      "invoice_number": null,
+      "invoice_status": null,
+      "in_processed_state": true,
+      "classification": "missing_invoice_safe_candidate",
+      "review_reason": null
+    },
+    {
+      "order_id": "210806640",
+      "order_date": "29 Apr 2026 09:31:39",
+      "status": "Shipped to Customer",
+      "line_count": 1,
+      "skus": [
+        "61677275657"
+      ],
+      "total_amount": 299,
+      "zoho_reference": "TK-210806640",
+      "invoice_found": false,
+      "invoice_number": null,
+      "invoice_status": null,
+      "in_processed_state": true,
+      "classification": "missing_invoice_safe_candidate",
+      "review_reason": null
+    },
+    {
+      "order_id": "210885617",
+      "order_date": "29 Apr 2026 22:29:50",
+      "status": "Returned",
+      "line_count": 1,
+      "skus": [
+        "51247250308"
+      ],
+      "total_amount": 828,
+      "zoho_reference": "TK-210885617",
+      "invoice_found": false,
+      "invoice_number": null,
+      "invoice_status": null,
+      "in_processed_state": true,
+      "classification": "manual_review",
+      "review_reason": "cancelled_or_returned_status"
+    },
+    {
+      "order_id": "210897798",
+      "order_date": "30 Apr 2026 06:26:50",
+      "status": "Shipped to Customer",
+      "line_count": 1,
+      "skus": [
+        "61677275657"
+      ],
+      "total_amount": 299,
+      "zoho_reference": "TK-210897798",
+      "invoice_found": false,
+      "invoice_number": null,
+      "invoice_status": null,
+      "in_processed_state": true,
+      "classification": "missing_invoice_safe_candidate",
+      "review_reason": null
+    },
+    {
+      "order_id": "210914537",
+      "order_date": "30 Apr 2026 09:24:56",
+      "status": "Shipped to Customer",
+      "line_count": 1,
+      "skus": [
+        "51247250308"
+      ],
+      "total_amount": 828,
+      "zoho_reference": "TK-210914537",
+      "invoice_found": false,
+      "invoice_number": null,
+      "invoice_status": null,
+      "in_processed_state": true,
+      "classification": "missing_invoice_safe_candidate",
+      "review_reason": null
+    },
+    {
+      "order_id": "210916814",
+      "order_date": "30 Apr 2026 10:10:21",
+      "status": "Shipped to Customer",
+      "line_count": 1,
+      "skus": [
+        "31126852991"
+      ],
+      "total_amount": 667,
+      "zoho_reference": "TK-210916814",
+      "invoice_found": false,
+      "invoice_number": null,
+      "invoice_status": null,
+      "in_processed_state": true,
+      "classification": "missing_invoice_safe_candidate",
+      "review_reason": null
+    },
+    {
+      "order_id": "210993415",
+      "order_date": "01 May 2026 01:36:06",
+      "status": "Preparing for Customer",
+      "line_count": 1,
+      "skus": [
+        "63127296090"
+      ],
+      "total_amount": 2624,
+      "zoho_reference": "TK-210993415",
+      "invoice_found": false,
+      "invoice_number": null,
+      "invoice_status": null,
+      "in_processed_state": true,
+      "classification": "missing_invoice_safe_candidate",
+      "review_reason": null
+    },
+    {
+      "order_id": "211092829",
+      "order_date": "02 May 2026 09:47:49",
+      "status": "Shipped to Customer",
+      "line_count": 2,
+      "skus": [
+        "63177248911",
+        "63177248912"
+      ],
+      "total_amount": 1290,
+      "zoho_reference": "TK-211092829",
+      "invoice_found": false,
+      "invoice_number": null,
+      "invoice_status": null,
+      "in_processed_state": true,
+      "classification": "missing_invoice_safe_candidate",
+      "review_reason": null
+    },
+    {
+      "order_id": "211109816",
+      "order_date": "02 May 2026 13:13:00",
+      "status": "Cancelled - Late Delivery",
+      "line_count": 1,
+      "skus": [
+        "61677275658"
+      ],
+      "total_amount": 299,
+      "zoho_reference": "TK-211109816",
+      "invoice_found": false,
+      "invoice_number": null,
+      "invoice_status": null,
+      "in_processed_state": true,
+      "classification": "manual_review",
+      "review_reason": "cancelled_or_returned_status"
+    },
+    {
+      "order_id": "211123028",
+      "order_date": "02 May 2026 16:40:21",
+      "status": "Cancelled - Late Delivery",
+      "line_count": 1,
+      "skus": [
+        "13717597586"
+      ],
+      "total_amount": 556,
+      "zoho_reference": "TK-211123028",
+      "invoice_found": false,
+      "invoice_number": null,
+      "invoice_status": null,
+      "in_processed_state": true,
+      "classification": "manual_review",
+      "review_reason": "cancelled_or_returned_status"
+    },
+    {
+      "order_id": "211221346",
+      "order_date": "03 May 2026 22:30:33",
+      "status": "Shipped to Customer",
+      "line_count": 1,
+      "skus": [
+        "13717597586"
+      ],
+      "total_amount": 556,
+      "zoho_reference": "TK-211221346",
+      "invoice_found": false,
+      "invoice_number": null,
+      "invoice_status": null,
+      "in_processed_state": true,
+      "classification": "missing_invoice_safe_candidate",
+      "review_reason": null
+    },
+    {
+      "order_id": "211244018",
+      "order_date": "04 May 2026 09:45:15",
+      "status": "Cancelled - Late Delivery",
+      "line_count": 1,
+      "skus": [
+        "31126852991"
+      ],
+      "total_amount": 667,
+      "zoho_reference": "TK-211244018",
+      "invoice_found": false,
+      "invoice_number": null,
+      "invoice_status": null,
+      "in_processed_state": true,
+      "classification": "manual_review",
+      "review_reason": "cancelled_or_returned_status"
+    },
+    {
+      "order_id": "211251647",
+      "order_date": "04 May 2026 10:27:59",
+      "status": "Shipped to Customer",
+      "line_count": 1,
+      "skus": [
+        "11517586925"
+      ],
+      "total_amount": 2342,
+      "zoho_reference": "TK-211251647",
+      "invoice_found": false,
+      "invoice_number": null,
+      "invoice_status": null,
+      "in_processed_state": true,
+      "classification": "missing_invoice_safe_candidate",
+      "review_reason": null
+    },
+    {
+      "order_id": "211288655",
+      "order_date": "04 May 2026 16:01:41",
+      "status": "Cancelled - Late Delivery",
+      "line_count": 1,
+      "skus": [
+        "51247250308"
+      ],
+      "total_amount": 828,
+      "zoho_reference": "TK-211288655",
+      "invoice_found": false,
+      "invoice_number": null,
+      "invoice_status": null,
+      "in_processed_state": true,
+      "classification": "manual_review",
+      "review_reason": "cancelled_or_returned_status"
+    },
+    {
+      "order_id": "211400203",
+      "order_date": "05 May 2026 17:47:05",
+      "status": "Shipped to Customer",
+      "line_count": 1,
+      "skus": [
+        "17117639020"
+      ],
+      "total_amount": 350,
+      "zoho_reference": "TK-211400203",
+      "invoice_found": false,
+      "invoice_number": null,
+      "invoice_status": null,
+      "in_processed_state": true,
+      "classification": "missing_invoice_safe_candidate",
+      "review_reason": null
+    },
+    {
+      "order_id": "211486857",
+      "order_date": "06 May 2026 15:05:24",
+      "status": "Shipped to Customer",
+      "line_count": 1,
+      "skus": [
+        "13717597586"
+      ],
+      "total_amount": 556,
+      "zoho_reference": "TK-211486857",
+      "invoice_found": false,
+      "invoice_number": null,
+      "invoice_status": null,
+      "in_processed_state": true,
+      "classification": "missing_invoice_safe_candidate",
+      "review_reason": null
+    },
+    {
+      "order_id": "211514748",
+      "order_date": "06 May 2026 20:15:23",
+      "status": "Shipped to Customer",
+      "line_count": 1,
+      "skus": [
+        "51247250308"
+      ],
+      "total_amount": 207,
+      "zoho_reference": "TK-211514748",
+      "invoice_found": false,
+      "invoice_number": null,
+      "invoice_status": null,
+      "in_processed_state": true,
+      "classification": "missing_invoice_safe_candidate",
+      "review_reason": null
+    },
+    {
+      "order_id": "211534084",
+      "order_date": "07 May 2026 04:01:07",
+      "status": "Shipped to Customer",
+      "line_count": 1,
+      "skus": [
+        "51717260397"
+      ],
+      "total_amount": 171,
+      "zoho_reference": "TK-211534084",
+      "invoice_found": false,
+      "invoice_number": null,
+      "invoice_status": null,
+      "in_processed_state": true,
+      "classification": "missing_invoice_safe_candidate",
+      "review_reason": null
+    },
+    {
+      "order_id": "211552577",
+      "order_date": "07 May 2026 09:33:41",
+      "status": "Shipped to Customer",
+      "line_count": 1,
+      "skus": [
+        "37126790078"
+      ],
+      "total_amount": 4356,
+      "zoho_reference": "TK-211552577",
+      "invoice_found": false,
+      "invoice_number": null,
+      "invoice_status": null,
+      "in_processed_state": true,
+      "classification": "missing_invoice_safe_candidate",
+      "review_reason": null
+    },
+    {
+      "order_id": "211691387",
+      "order_date": "08 May 2026 18:01:54",
+      "status": "Shipped to Customer",
+      "line_count": 2,
+      "skus": [
+        "63177315559",
+        "63177315560"
+      ],
+      "total_amount": 1710,
+      "zoho_reference": "TK-211691387",
+      "invoice_found": false,
+      "invoice_number": null,
+      "invoice_status": null,
+      "in_processed_state": true,
+      "classification": "missing_invoice_safe_candidate",
+      "review_reason": null
+    },
+    {
+      "order_id": "211802611",
+      "order_date": "10 May 2026 13:33:39",
+      "status": "Preparing for Customer",
+      "line_count": 1,
+      "skus": [
+        "51717260397"
+      ],
+      "total_amount": 171,
+      "zoho_reference": "TK-211802611",
+      "invoice_found": false,
+      "invoice_number": null,
+      "invoice_status": null,
+      "in_processed_state": true,
+      "classification": "missing_invoice_safe_candidate",
+      "review_reason": null
+    },
+    {
+      "order_id": "211911140",
+      "order_date": "11 May 2026 18:53:19",
+      "status": "Preparing for Customer",
+      "line_count": 1,
+      "skus": [
+        "63177248912"
+      ],
+      "total_amount": 645,
+      "zoho_reference": "TK-211911140",
+      "invoice_found": false,
+      "invoice_number": null,
+      "invoice_status": null,
+      "in_processed_state": true,
+      "classification": "missing_invoice_safe_candidate",
+      "review_reason": null
+    },
+    {
+      "order_id": "211971492",
+      "order_date": "12 May 2026 13:24:03",
+      "status": "Shipped to Customer",
+      "line_count": 1,
+      "skus": [
+        "13717597586"
+      ],
+      "total_amount": 556,
+      "zoho_reference": "TK-211971492",
+      "invoice_found": false,
+      "invoice_number": null,
+      "invoice_status": null,
+      "in_processed_state": true,
+      "classification": "missing_invoice_safe_candidate",
+      "review_reason": null
+    },
+    {
+      "order_id": "211984973",
+      "order_date": "12 May 2026 15:59:20",
+      "status": "Preparing for Customer",
+      "line_count": 1,
+      "skus": [
+        "13717597586"
+      ],
+      "total_amount": 556,
+      "zoho_reference": "TK-211984973",
+      "invoice_found": false,
+      "invoice_number": null,
+      "invoice_status": null,
+      "in_processed_state": true,
+      "classification": "missing_invoice_safe_candidate",
+      "review_reason": null
+    },
+    {
+      "order_id": "212082895",
+      "order_date": "13 May 2026 18:32:02",
+      "status": "Shipped Shipment",
+      "line_count": 1,
+      "skus": [
+        "37126790078"
+      ],
+      "total_amount": 1089,
+      "zoho_reference": "TK-212082895",
+      "invoice_found": false,
+      "invoice_number": null,
+      "invoice_status": null,
+      "in_processed_state": true,
+      "classification": "missing_invoice_safe_candidate",
+      "review_reason": null
+    },
+    {
+      "order_id": "212432572",
+      "order_date": "18 May 2026 10:41:04",
+      "status": "Draft Shipment",
+      "line_count": 1,
+      "skus": [
+        "31126852991"
+      ],
+      "total_amount": 667,
+      "zoho_reference": "TK-212432572",
+      "invoice_found": true,
+      "invoice_number": "INV-006006",
+      "invoice_status": "overdue",
+      "in_processed_state": true,
+      "classification": "already_invoiced",
+      "review_reason": null
+    },
+    {
+      "order_id": "212455254",
+      "order_date": "18 May 2026 14:07:04",
+      "status": "Shipped to Customer",
+      "line_count": 1,
+      "skus": [
+        "31126852991"
+      ],
+      "total_amount": 667,
+      "zoho_reference": "TK-212455254",
+      "invoice_found": true,
+      "invoice_number": "INV-006007",
+      "invoice_status": "overdue",
+      "in_processed_state": true,
+      "classification": "already_invoiced",
+      "review_reason": null
+    },
+    {
+      "order_id": "212466532",
+      "order_date": "18 May 2026 16:16:53",
+      "status": "Cancelled by Customer",
+      "line_count": 1,
+      "skus": [
+        "66209261582"
+      ],
+      "total_amount": 315,
+      "zoho_reference": "TK-212466532",
+      "invoice_found": true,
+      "invoice_number": "INV-006008",
+      "invoice_status": "overdue",
+      "in_processed_state": true,
+      "classification": "already_invoiced",
+      "review_reason": null
+    },
+    {
+      "order_id": "212469643",
+      "order_date": "18 May 2026 16:55:58",
+      "status": "Shipped to Customer",
+      "line_count": 1,
+      "skus": [
+        "13717597586"
+      ],
+      "total_amount": 556,
+      "zoho_reference": "TK-212469643",
+      "invoice_found": true,
+      "invoice_number": "INV-006009",
+      "invoice_status": "overdue",
+      "in_processed_state": true,
+      "classification": "already_invoiced",
+      "review_reason": null
+    }
+  ]
+}

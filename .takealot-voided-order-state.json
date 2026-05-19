@@ -1,0 +1,15 @@
+{
+  "voided_orders": [
+    {
+      "order_id": 212466532,
+      "invoice_number": "INV-006008",
+      "invoice_id": "5377650000016810008",
+      "sales_order_number": "SO-03141",
+      "sales_order_id": "5377650000016809001",
+      "amount": 315,
+      "reason": "Takealot cancelled by customer before fulfilment; total_fee R0; no return/reversal expected",
+      "stock_action": "not_applicable_cancelled_before_supply",
+      "voided_at": "2026-05-19T17:17:58.662Z"
+    }
+  ]
+}
