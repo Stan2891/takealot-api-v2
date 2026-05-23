@@ -108,3 +108,14 @@ node takealot-health-check.js --max-age-minutes 90
 ## License
 
 Private / Internal Use
+
+## Restore Procedure
+
+1. Clone repo
+2. Restore `.env` manually from secure backup
+3. `npm install`
+4. Restore systemd service
+5. Restore crontab
+6. Restore runtime state files if available
+7. Start `zoho-mcp-node.service`
+8. Verify health/order/returns logs
