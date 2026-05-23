@@ -1,0 +1,13 @@
+# PAUSED: 0 */6 * * * /home/stan/.copilot-memory/sync-to-github.sh >> /home/stan/.copilot-memory/sync.log 2>&1
+# Sync customer price lists for portal personalized pricing
+15 */2 * * * /usr/bin/node /home/stan/zoho-mcp-server/sync-customer-pricelists.js >> /var/log/sync-pricelists.log 2>&1
+# Takealot stock sync every hour
+0 * * * * cd /home/stan/zoho-mcp-server && /usr/bin/node takealot-sync-cron.js >> /home/stan/reports/takealot-sync.log 2>&1
+# Takealot price sync daily at 6 AM
+0 6 * * * cd /home/stan/zoho-mcp-server && /usr/bin/node takealot-sync-cron.js --sync-prices >> /home/stan/reports/takealot-sync.log 2>&1
+# Takealot order polling every 30 min with Healthchecks heartbeat
+*/30 * * * * /home/stan/zoho-mcp-server/takealot-order-poll-heartbeat.sh >> /home/stan/reports/takealot-order-poll.log 2>&1
+# Takealot poller health check every 15 min
+*/15 * * * * cd /home/stan/zoho-mcp-server && /usr/bin/node takealot-health-check.js >> /home/stan/reports/takealot-health.log 2>&1
+# Takealot returns detection every 2 hours, read-only notify-only
+0 */2 * * * cd /home/stan/zoho-mcp-server && /usr/bin/node takealot-returns-check.js --days 7 >> /home/stan/reports/takealot-returns.log 2>&1

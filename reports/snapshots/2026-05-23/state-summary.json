@@ -1,0 +1,63 @@
+{
+  "snapshot_time": "2026-05-23T14:57:24.786Z",
+  "health": {
+    "last_success_at": "2026-05-23T14:30:01.601Z",
+    "last_error_at": "none",
+    "orders_seen": 51,
+    "orders_created": 1,
+    "last_takealot_order_id": "212904438",
+    "last_zoho_invoice_number": "INV-006095"
+  },
+  "order_state": {
+    "processed_count": 89,
+    "last_20_order_ids": [
+      "210916814",
+      "210993415",
+      "211221346",
+      "211251647",
+      "211400203",
+      "211486857",
+      "211514748",
+      "211534084",
+      "211552577",
+      "211802611",
+      "211911140",
+      "211971492",
+      "211984973",
+      "212082895",
+      "212649295",
+      "212787698",
+      "212813700",
+      "212836801",
+      "212857654",
+      "212904438"
+    ]
+  },
+  "returns_state": {
+    "processed_count": 3,
+    "last_20_return_ids": [
+      7603248,
+      7589922,
+      7696090
+    ]
+  },
+  "credit_note_state": {
+    "count": 2,
+    "credit_note_numbers": [
+      "CN-00006",
+      "CN-00007"
+    ]
+  },
+  "approval_queue": {
+    "count": 2,
+    "statuses": {
+      "processed": 2
+    }
+  },
+  "voided_orders": {
+    "count": 1,
+    "order_ids": [
+      212466532
+    ]
+  }
+}
